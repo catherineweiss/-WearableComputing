@@ -5,6 +5,8 @@ Getting and Cleaning Data Course Project
 
 The purpose of this project is to create an R script, run_analysis.R, that accesses and manipulates a set of wearable computing data published by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, and Luca Oneto of Smartlab - Non Linear Complex Systems Laboratory.  The data were collected from experiments conducted on a group of 30 volunteers. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. The device has an embedded accelerometer and gyroscope and measures 3-axial linear acceleration and 3-axial angular velocity. The obtained dataset was broken into two datasets (training data and test data).  Both datasets include the measurements mentioned above, as well as computed variables (i.e., separation of the sensor acceleration signal into acceleration and gravity components, separation of variables from the time and frequency domain, and statistics including mean and standard deviation. A full description of the dataset is available at the site where the data was obtained:  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.  The data for the project are available at the following website: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 
+** The dplyr package is required for this script and must be installed.  The script will load the package.
+
 
 #Five Tasks Accomplished by run_analysis.R
 
